@@ -8,7 +8,7 @@
   <button onclick = "adv()">Click me</button> 
  
     <script type="text/javascript">
-        const links = :linklisthere:
+        const links = :linklisthere:;
         var i = 0;
             function adv(){
                 for(a in links[i]){
