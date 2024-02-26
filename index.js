@@ -29,7 +29,7 @@ function arrayToString(values){
        tempstring = tempstring+"]";
        arr1.push(tempstring);
     };
-return(arr1);
+return("["+arr1.toString()+"]");
 
 }
 var text;
