@@ -1,0 +1,26 @@
+<html>
+ 
+<head>
+   
+</head>
+ 
+<body>
+  <button onclick = "adv()">Click me</button> 
+ 
+    <script type="text/javascript">
+        const links = :linklisthere:;
+        var i = 0;
+            function adv(){
+                for(a in links[i]){
+                    window.open("https://"+links[i][a]);
+                     }
+                i=i+1
+
+            }
+            
+
+        
+    </script>
+</body>
+ 
+</html>
